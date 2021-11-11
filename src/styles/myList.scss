@@ -35,3 +35,31 @@
   width: 80%;
   overflow: hidden;
 }
+.empty-tasks {
+  width: 100%;
+  text-align: center;
+  font-size: 1.8rem;
+  color: var(--color-text);
+  font-weight: semi-bold;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.task-options {
+  height: 100%;
+  width: 5%;
+  cursor: pointer;
+}
+.delete:hover {
+  color: #f44336;
+}
+.update:hover {
+  color: #3333aa;
+}
+.task-icon {
+  height: 100%;
+  width: 100%;
+}
