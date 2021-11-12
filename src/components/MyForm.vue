@@ -1,6 +1,9 @@
 <template>
   <form>
+    <label v-bind:class="{ visible: title }">Titulo</label>
     <input type="text" placeholder="Digite um titulo" v-model="title" />
+
+    <label v-bind:class="{ visible: description }">Descrição</label>
     <input
       type="text"
       placeholder="Digite uma descrição"
